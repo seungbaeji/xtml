@@ -7,7 +7,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "xtml"
-version = "0.1.0"
+version = "0.0.1"
 description = "A machine learning trainer across various ML frameworks."
 authors = [
     { name = "Seungbae Ji", email = "seungbae.ji@email.com" },
@@ -31,3 +31,9 @@ tensorflow = [
 torch = [
     "torch>=1.8.0",
 ]
+
+[project.urls]
+homepage = "https://github.com/seungbaeji/xtml"
+# documentation = "https://readthedocs.org"
+repository = "https://github.com/seungbaeji/xtml"
+# changelog = ""
