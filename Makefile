@@ -1,10 +1,13 @@
-.PHONY: install build upload-pypi install-tensorflow install-torch
+.PHONY: install build clean pypi install-tensorflow install-torch
 
 build:
 	pip install build
 	python -m build
 
-upload-pypi:
+clean:
+	rm -rf ./dist ./build ./xtml.egg-info
+
+pypi:
 	twine upload dist/*
 
 install:

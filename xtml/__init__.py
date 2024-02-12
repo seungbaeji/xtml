@@ -1,3 +1,4 @@
-from torch import TrainConfig, DataLoaderConfig, TorchTrainer
+from xtml.torch import TrainConfig, DataLoaderConfig, TorchTrainer
+from xtml.utils import get_xtml_version
 
-__version__ = '0.0.1'
+__version__ = get_xtml_version()

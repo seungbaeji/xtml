@@ -7,7 +7,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "xtml"
-version = "0.0.1"
+version = "0.0.4"
 description = "A machine learning trainer across various ML frameworks."
 authors = [
     { name = "Seungbae Ji", email = "seungbae.ji@email.com" },
