@@ -1,0 +1,14 @@
+[data_loader]
+batch_size = 64
+shuffle = true
+num_workers = 4
+
+[train]
+device = "mps"
+epochs = 10
+loss_fn = "MSELoss"
+loss_fn_params = {}
+optimizer = "Adam"
+optimizer_params = { lr = 0.001 }
+checkpoint_dir = "checkpoints"
+model_dir = "model"
