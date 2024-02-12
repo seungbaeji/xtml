@@ -1,8 +1,11 @@
-.PHONY: install build install-tensorflow install-torch
+.PHONY: install build upload-pypi install-tensorflow install-torch
 
 build:
 	pip install build
 	python -m build
+
+upload-pypi:
+	twine upload dist/*
 
 install:
 	pip install .
